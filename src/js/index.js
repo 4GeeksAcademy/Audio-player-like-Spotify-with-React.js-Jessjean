@@ -7,6 +7,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Player3 from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Player3 />, document.querySelector("#app"));
+// ReactDOM.render, document.querySelector();
