@@ -371,3 +371,11 @@ body {
   .image {
     border-radius: auto;
   }
+  .navbar-brand{
+    text-shadow: -12px -8px 15px rgba(16, 245, 53, 0.5);
+  color: green; 
+    margin-top: 0%;
+    margin-bottom: 1.0rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }

@@ -1,14 +1,13 @@
-//import react into the bundle
+// import React, { useState } from "react";
 import React from "react";
 import ReactDOM from "react-dom";
+import { Player3 } from "./component/home.jsx";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import Player3 from "./component/home.jsx";
+// import Player3 from "./component/home.jsx";
 
-//render your react application
-ReactDOM.render(<Player3 />, document.querySelector("#app"));
-// ReactDOM.render, document.querySelector();
+ReactDOM.render(<Player3 />, document.getElementById("app"));
